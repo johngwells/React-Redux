@@ -14,11 +14,6 @@ console.log('store.getState()', store.getState());
 
 store.subscribe(() => console.log('store.getState()', store.getState()));
 
-// store.dispatch(startGame());
-// store.dispatch(expandInstructions());
-// store.dispatch(cancelGame());
-// store.dispatch(collapseInstructions());
-
 ReactDOM.render(
   <Provider store={store}>
     <App />
